@@ -1,0 +1,45 @@
+{
+  "name": "tldraw-continuous-eraser",
+  "version": "1.0.0",
+  "description": "Pixel-exact continuous vector eraser tool for tldraw v5+. Slices and carves ink strokes in real-time.",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "index.ts",
+    "ContinuousEraserTool.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "tldraw",
+    "whiteboard",
+    "eraser",
+    "vector-eraser",
+    "pixel-eraser",
+    "canvas",
+    "drawing",
+    "react"
+  ],
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0",
+    "tldraw": ">=5.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tldraw": ">=5.0.0",
+    "typescript": "^5.6.3"
+  }
+}
