@@ -164,6 +164,16 @@ Inside `ContinuousEraserTool.ts`:
 
 ---
 
+##  AI Disclosure & Transparency
+
+This project was developed with the assistance of AI tools:
+- **Codebase & Architecture:** AI coding models were utilized for brainstorming vector algorithms, structuring the continuous sweep and stroke-splitting pipeline, and drafting TypeScript types. All logic has been reviewed and validated against tldraw v5+.
+- **Documentation:** This `README.md` and related usage guides were written and organized with AI assistance to ensure thorough mathematical documentation, API references, and clear setup steps.
+
+While every effort has been made to ensure correctness and stability, community feedback and contributions are warmly welcomed! If you spot any edge-cases or discrepancies, please feel free to open an issue or pull request.
+
+---
+
 ## 📄 License
 
 MIT © 2026. Free to use in personal, academic, and commercial projects.
